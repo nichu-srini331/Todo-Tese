@@ -8,7 +8,7 @@ const cors = require("cors")
 const app = express()
 
 app.use(cors())
-app.use(bodyParser.json()); // for parsing application/json
+app.use(bodyParser.json()); // for parsig application/json
 app.use(express.json());
 
 const uri = `mysql://root:RDLUEzXbmEaUQTTdQSuhYIATXzmpelUH@viaduct.proxy.rlwy.net:51200/railway`;
